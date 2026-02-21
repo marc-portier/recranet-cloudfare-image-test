@@ -27,7 +27,7 @@ this repo shares some tools and indicative outputs to assist in the digital fore
 
 * when the error occurs, this is the unexpected behaviour we see:
   * the client can always directly succesfully (200) access the base image
-  * when retrieving it through the cdn-cgi/images service it however yields 404 with a nested 9404 which hints that the internal traffic between the base-storage 
+  * when retrieving it through the cdn-cgi/images service it however yields 404 with a nested 9404 which hints that the internal traffic between the base-storage and the rescaling service is to blame?
 
 
 ## hypothesis
