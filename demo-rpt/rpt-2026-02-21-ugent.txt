@@ -1,0 +1,46 @@
+----
+my location...
+----
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Ghent","zip":"9000","lat":51.047,"lon":3.7206,"timezone":"Europe/Brussels","isp":"BELNET","org":"Research network University of Ghent","as":"AS2611 BELNET","query":"157.193.240.251"}
+----
+get https://files.recranet.app/organizations/1631/2025-10-29-13-50-55/p3300073.jpg
+----
+HTTP/2 200 
+date: Sat, 21 Feb 2026 09:54:59 GMT
+content-type: image/jpeg
+content-length: 359546
+server: cloudflare
+x-bz-file-name: organizations/1631/2025-10-29-13-50-55/p3300073.jpg
+x-bz-file-id: 4_z4023ad3f148aaeb682510010_f106b9f9faf5bd786_d20251029_m135055_c003_v0312033_t0009_u01761745855353
+x-bz-content-sha1: unverified:6b541f7a949d50b6b478a742ea2e6c8fcce331d3
+x-bz-upload-timestamp: 1761745855353
+accept-ranges: bytes
+strict-transport-security: max-age=63072000
+age: 1700
+cache-control: max-age=14400
+cf-cache-status: HIT
+last-modified: Sat, 21 Feb 2026 09:26:38 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nQ9gy3tHm%2FsZJUnBeLtfgx3SdXBSGkTz3VjRaqdq9SzRZJgMBPlc7IpEM6iuu5hDNCmk84fWhUip%2FExdH%2BW3LVHLxZgGoPmUsQt5iBNq%2BHN9UQ%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: 9d155d91c8a3b1ce-BRU
+
+----
+get https://recranet.app/cdn-cgi/image/format=auto,width=600,height=280,dpr=1,q=85,fit=crop/https://files.recranet.app/organizations/1631/2025-10-29-13-50-55/p3300073.jpg
+----
+HTTP/2 404 
+date: Sat, 21 Feb 2026 09:54:59 GMT
+content-type: text/plain;charset=utf-8
+content-length: 87
+cf-cache-status: BYPASS
+cache-control: private
+server: cloudflare
+vary: accept
+cf-int-resized: {"error":9404}
+cf-resized: err=9404 wv=2026.2.2
+content-security-policy: default-src 'none'; navigate-to 'none'; form-action 'none'
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GP%2BDeknhecdpSL2STTOR41k%2F4Qix96sVlxNZRKn8wLmBnbzMu2xHixCg8VVXPmQy1O7LZoQXa3rqGoB9ipn49N1aOhSQR2CdymshMg%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: 9d155d91f9b75661-BRU
+
+----

@@ -11,7 +11,7 @@ echo "----"                         >> ${rpt_file}
 echo "my location..."               >> ${rpt_file}
 echo "----"                         >> ${rpt_file}
 curl "http://ip-api.com/json/"      >> ${rpt_file}
-echo "----"                         >> ${rpt_file}
+echo  -e "\n----"                   >> ${rpt_file}
 echo "get ${base_img_url}"          >> ${rpt_file}
 echo "----"                         >> ${rpt_file}
 curl -LI --url "${base_img_url}"    >> ${rpt_file}

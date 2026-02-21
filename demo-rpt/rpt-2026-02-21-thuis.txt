@@ -1,0 +1,46 @@
+----
+my location...
+----
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Haaltert","zip":"9450","lat":50.9054,"lon":3.9934,"timezone":"Europe/Brussels","isp":"Telenet operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.198.169.42"}
+----
+get https://files.recranet.app/organizations/1631/2025-10-29-13-50-55/p3300073.jpg
+----
+HTTP/2 200 
+date: Sat, 21 Feb 2026 10:05:55 GMT
+content-type: image/jpeg
+content-length: 359546
+server: cloudflare
+x-bz-file-name: organizations/1631/2025-10-29-13-50-55/p3300073.jpg
+x-bz-file-id: 4_z4023ad3f148aaeb682510010_f106b9f9faf5bd786_d20251029_m135055_c003_v0312033_t0009_u01761745855353
+x-bz-content-sha1: unverified:6b541f7a949d50b6b478a742ea2e6c8fcce331d3
+x-bz-upload-timestamp: 1761745855353
+accept-ranges: bytes
+strict-transport-security: max-age=63072000
+age: 2357
+cache-control: max-age=14400
+cf-cache-status: HIT
+last-modified: Sat, 21 Feb 2026 09:26:38 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6YMioNfn2nYzPd5BSBPc5OEIXqg8IGf3ahkW5QIhATWXK4uaikExHtqucs05LSeUit10hU6m%2FjgxWjyyBnwOPwSO8esh0xjic0%2B5sV2j%2FGE%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: 9d156d97efcfb73b-BRU
+
+----
+get https://recranet.app/cdn-cgi/image/format=auto,width=600,height=280,dpr=1,q=85,fit=crop/https://files.recranet.app/organizations/1631/2025-10-29-13-50-55/p3300073.jpg
+----
+HTTP/2 404 
+date: Sat, 21 Feb 2026 10:05:56 GMT
+content-type: text/plain;charset=utf-8
+content-length: 87
+cf-cache-status: BYPASS
+cache-control: private
+server: cloudflare
+vary: accept
+cf-int-resized: {"error":9404}
+cf-resized: err=9404 wv=2026.2.2
+content-security-policy: default-src 'none'; navigate-to 'none'; form-action 'none'
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZiXzaWebVLkiJkKmzosylas1Z00fFPVrZcIibnrUYerX0Z%2BkN9S%2FuZ%2FyUztAc8mxtVrbt0QchiwzcxkgP0Mu2qe1hQ5GYMpWx%2BQ%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: 9d156d986a761dfe-BRU
+
+----
