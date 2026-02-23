@@ -14,7 +14,7 @@ this repo shares some tools and indicative outputs to assist in the digital fore
 
 - a folder with reports coming from it:
 
-  - rpt-2026-02-20-odd-succes :: a sudden succesful retrieval on the home network on the day of retrieval
+  - rpt-2026-02-20-odd-succes :: a sudden succesful retrieval on the home network on the day of detection and excive errors.
   - rpt-2026-02-21-thuis and rpt-2026-02-21-ugent -- roughly same time but from 2 distinct networks in belgium / flanders
 
 - note that the script also is setup to run as a github action -- just to be able to test from whatever azure-cloud-cluster they happen to use (apparently denver) 
@@ -27,7 +27,7 @@ this repo shares some tools and indicative outputs to assist in the digital fore
 
 * when the error occurs, this is the unexpected behaviour we see:
   * the client can always directly succesfully (200) access the base image
-  * when retrieving it through the cdn-cgi/images service it however yields 404 with a nested 9404 which hints that the internal traffic between the base-storage 
+  * when retrieving it through the cdn-cgi/images service it however yields 404 with a nested 9404 which hints that the internal traffic between the base-storage and the rescaling service is to blame?
 
 
 ## hypothesis
